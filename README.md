@@ -12,6 +12,8 @@ Bir örnek üzerinden anlatmanın daha doğru olduğunu düşünüyorum. Bir E-t
 
 İlk olarak 1987 yılında akademik bir makale ile ortaya atılmıştır. Saga pattern'de her trancsaction ayrı bir konumda tutulur. Birbirinden bağımsız olarak çalışırlar. Yürütme aşamasında her servis teker teker yönetilir, işlemi tamamlanan bir sonraki trasactiona yönlendirir. Bu şekilde en sonuncu transaction'a kadar varılır ve son servis de işlendiğinde olay tamamlanır. Hata durumunda ise hatanın alındığı yerde hata alındı olarak işaretlenir. işlemin durumu başarısız olarak güncellenir.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Uygulama Ödevi : Patika Bootcamp Web Api #net6
 
