@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HomeWork-Week2</name>
+    </assembly>
+    <members>
+        <member name="M:HomeWork_Week2.Controllers.AdminApiController.Add(HomeWork_Week2.Models.Bootcamp)">
+            <summary>
+            Bootcamp kaydetme işlemi; Bootcamp türünde veri gönderilir.
+            </summary>
+            <param name="bootcamp"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HomeWork_Week2.Controllers.AdminApiController.DeleteBootcamp(System.Int32)">
+            <summary>
+            Bootcamp silme işlemi; Girilen id verisine ait bootcamp var ise silinir.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:HomeWork_Week2.Controllers.AdminApiController.ConfirmMember(System.Int32)">
+            <summary>
+            Gönderilen id bilgisine ait kullanıcı var ise durumu onaylanır.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HomeWork_Week2.Controllers.AdminApiController.DeleteMember(System.Int32)">
+            <summary>
+            Gönderilen id bilgisine ait katılımcı var ise katılımcı silinir.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HomeWork_Week2.Controllers.AdminApiController.GetBootcampMembers">
+            <summary>
+            Tüm katılımcıları listeler.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HomeWork_Week2.Controllers.BootCampApiController.GetByStatus(System.Boolean)">
+            <summary>
+            Bootcamp Listele Aktif için True, Pasif için False.
+            </summary>
+            <param name="status"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HomeWork_Week2.Controllers.BootCampApiController.GetByID(System.Int32)">
+            <summary>
+            Girilen id bilgisine ait Bootcamp var iste Bootcamp'in bilgisini getirir.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HomeWork_Week2.Controllers.BootCampApiController.Join(HomeWork_Week2.Models.BootcampMembers)">
+            <summary>
+            Bootcamp'e bootcampMembers türünde veriler post edilerek katılım işlemi gerçekleştirir.
+            </summary>
+            <param name="bootcampMembers"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
